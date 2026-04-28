@@ -1,0 +1,906 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  max-width: 1920px;
+  height: 44px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.tolgoi {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+.TextHead {
+  font-size: 12 px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.logo {
+  width: 14px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TH {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+.d768 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+.search {
+  width: 30px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  width: 30px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.svg {
+  display: none;
+  width: 18px;
+  justify-content: center;
+  height: 18px;
+  align-items: center;
+}
+.donation {
+  width: 100%;
+  max-width: 1920px;
+  height: 52px;
+  font-size: 14px;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+.Pro {
+  width: 1920px;
+  height: 692px;
+  background-image: url(image/Background\ \(2\).png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+  background-size: contain;
+}
+.buy {
+  margin-top: 131px;
+  width: 405px;
+  height: 172px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.buy1 {
+  width: 405px;
+  height: 108px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.buy1T {
+  font-size: 58px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+.buy2T {
+  font-size: 24px;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  height: 32px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+.learn {
+  width: 207px;
+  height: 44px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.more {
+  width: 123px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0071e3;
+  border-radius: 100px;
+  font-size: 18px;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+}
+.small {
+  width: 68px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #2997ff;
+  border-radius: 100px;
+  font-size: 16px;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+}
+.l16 {
+  margin-top: 12px;
+  width: 1920px;
+  height: 692px;
+  background-image: url(image/Figure.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.buy10 {
+  margin-top: 55px;
+  width: 405px;
+  height: 172px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.magic {
+  margin-top: 12px;
+  width: 1920px;
+  height: 692px;
+  background-image: url(image/Figure\ \(1\).png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.gift {
+  width: 405px;
+  height: 164px;
+  gap: 16px;
+  margin-top: 446px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gift1T {
+  display: flex;
+  justify-content: center;
+  font-size: 52px;
+  font-family: "inter", sans-serif;
+  font-weight: 600;
+  color: black;
+}
+.gift2T {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  color: black;
+}
+.giftshop {
+  width: 114px;
+  height: 44px;
+  font-size: 16px;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  background-color: #0071e3;
+  border-radius: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sixPic {
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.box {
+  width: 100%;
+  max-width: 942px;
+  height: 580px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.negback {
+  background-image: url(image/Figure\ \(2\).png);
+}
+.hoyrback {
+  background-image: url(image/Figure\ \(3\).png);
+  color: white;
+}
+.guravback {
+  background-image: url(image/Figure\ \(4\).png);
+}
+.duruvback {
+  background-image: url(image/Figure\ \(5\).png);
+}
+.tavback {
+  background-image: url(image/Figure\ \(6\).png);
+}
+.zurgaaback {
+  background-image: url(image/Figure\ \(7\).png);
+}
+.ipad {
+  width: 100%;
+  max-width: 430px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 58px;
+}
+.text6 {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+.zai {
+  margin-top: 20px;
+}
+.color {
+  width: 169px;
+  height: 18px;
+  border: 1px solid red;
+  margin-top: 509px;
+  font-size: 14px;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  color: black;
+}
+.pro2 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-top: 401px;
+}
+.trade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.watch {
+  display: flex;
+  margin-top: 58px;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "inter" sans-serif;
+}
+.alim {
+  width: 26.35px;
+  height: 32px;
+}
+.series {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "inter", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.classic {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "inter", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.macBook {
+  margin-top: -340px;
+}
+.lestimate {
+  display: flex;
+  justify-content: center;
+}
+.Get {
+  width: 167px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0071e3;
+  border-radius: 100px;
+  font-size: 18px;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  margin-top: 16px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.smallnow {
+  width: 112px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #2997ff;
+  border-radius: 100px;
+  font-size: 16px;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+}
+.so {
+  gap: 16px;
+}
+
+.scroll {
+  width: 1920px;
+  overflow-x: scroll;
+}
+.Moon {
+  width: 3782px;
+  height: 669px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.Mer {
+  width: 1250px;
+  height: 668px;
+  background-image: url(image/Link\ \(3\).png);
+}
+.flyme {
+  width: 1250px;
+  height: 668px;
+  background-image: url(image/Link\ \(2\).png);
+}
+.SH {
+  width: 1250px;
+  height: 668px;
+  background-image: url(image/Link\ \(4\).png);
+}
+.DT {
+  width: 220px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #000000;
+  opacity: 0.45;
+  transition: all 0.3s ease;
+}
+.dot.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+  background: #5f5f5f;
+}
+.last {
+  width: 1920px;
+  overflow-x: scroll;
+}
+.zar {
+  height: 292px;
+  width: 3782px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.fitness {
+  width: 417px;
+  height: 236px;
+  background-image: url(image/Background\ \(3\).png);
+}
+.rnb {
+  width: 417px;
+  height: 236px;
+  background-image: url(image/Background\ \(4\).png);
+}
+.boston {
+  width: 417px;
+  height: 236px;
+  background-image: url(image/Background\ \(5\).png);
+}
+.kim {
+  width: 417px;
+  height: 236px;
+  background-image: url(image/Background\ \(6\).png);
+}
+.music {
+  width: 417px;
+  height: 236px;
+  background-image: url(image/Background\ \(7\).png);
+}
+
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  .tolgoi {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .logo {
+    display: flex;
+    width: 18px;
+    height: 48px;
+    justify-content: flex-start;
+  }
+  .TH {
+    display: none;
+  }
+  .d768 {
+    display: flex;
+  }
+  .search {
+    width: 48px;
+    height: 48px;
+  }
+  .item {
+    width: 48px;
+    height: 48px;
+  }
+  .svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+  }
+  .l16 {
+    margin-top: 12px;
+    width: 100%;
+    height: 692px;
+    background-image: url(image/Figure.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  .donation {
+    width: 100%;
+    height: 48px;
+    font-size: 14px;
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .Pro {
+    max-width: 768px;
+    width: 100vw;
+    background-image: url(image/Background\ \(2\).png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+  }
+  .l16 {
+    width: 100vw;
+    max-width: 768px;
+    background-image: url(image/Figure.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  .magic {
+    margin-top: 12px;
+    width: 100vw;
+    max-width: 768px;
+    background-image: url(image/Figure\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  .sixPic {
+    width: 100%;
+    max-width: 768px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box {
+    width: 49%;
+    background-image: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .scroll {
+    width: 100%;
+    max-width: 769px;
+    overflow-x: scroll;
+  }
+  .Moon {
+    width: 7034px;
+    height: 368px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    background-size: cover;
+    background-position: center;
+  }
+  .Mer {
+    width: 100%px;
+    max-width: 768px;
+    height: 368px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Link\ \(3\).png);
+  }
+  .flyme {
+    width: 100%px;
+    max-width: 768px;
+    height: 368px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Link\ \(2\).png);
+  }
+  .SH {
+    width: 100%px;
+    max-width: 768px;
+    height: 368px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Link\ \(4\).png);
+  }
+  .zar {
+    height: 161px;
+    width: 3782px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  .fitness {
+    width: 100%;
+    max-width: 286px;
+    height: 161px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Background\ \(3\).png);
+  }
+  .rnb {
+    width: 100%;
+    max-width: 286px;
+    height: 161px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Background\ \(4\).png);
+  }
+  .boston {
+    width: 100%;
+    max-width: 286px;
+    height: 161px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Background\ \(5\).png);
+  }
+  .kim {
+    width: 100%;
+    max-width: 286px;
+    height: 161px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Background\ \(6\).png);
+  }
+  .music {
+    width: 100%;
+    max-width: 286px;
+    height: 161px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Background\ \(7\).png);
+  }
+}
+@media (max-width: 390px) {
+  header {
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  .tolgoi {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .logo {
+    display: flex;
+    width: 18px;
+    height: 48px;
+    justify-content: flex-start;
+  }
+  .TH {
+    display: none;
+  }
+  .d768 {
+    display: flex;
+  }
+  .search {
+    width: 48px;
+    height: 48px;
+  }
+  .item {
+    width: 48px;
+    height: 48px;
+  }
+  .svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+  }
+  .donation {
+    width: 100%;
+    height: 48px;
+    font-size: 14px;
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+  }
+  .Pro {
+    width: 100vw;
+    max-width: 390px;
+    background-image: url(image/Figure@2x.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+    background-position: center;
+  }
+  .buy {
+    padding-top: 350px;
+    width: 241px;
+    height: 114px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .buy1 {
+    width: 241px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .buy1T {
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .buy2T {
+    font-size: 18px;
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    height: 32px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .learn {
+    width: 207px;
+    height: 44px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  .more {
+    width: 107px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0071e3;
+    border-radius: 100px;
+    font-size: 14px;
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+  }
+  .small {
+    width: 66px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #2997ff;
+    border-radius: 100px;
+    font-size: 14px;
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+  }
+  .l16 {
+    width: 100vw;
+    max-width: 390px;
+    background-image: url(image/Figure\ \(8\).png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  .sixPic {
+    width: 100%;
+    max-width: 390px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box {
+    width: 100%;
+    background-image: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .scroll {
+    width: 100%;
+    max-width: 390px;
+    overflow-x: scroll;
+  }
+  .Moon {
+    width: 854px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    gap: 16px;
+    background-size: cover;
+    background-position: center;
+  }
+  .Mer {
+    width: 100%px;
+    width: 275x;
+    height: 495px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Tabpanel.png);
+  }
+  .flyme {
+    width: 100%px;
+    max-width: 275x;
+    height: 495px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Link\ \(2\).png);
+  }
+  .SH {
+    width: 100%px;
+    max-width: 275x;
+    height: 495px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Link\ \(4\).png);
+  }
+  .zar {
+    height: 134px;
+    width: 3782px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  .fitness {
+    width: 100%;
+    max-width: 238px;
+    height: 134px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Background\ \(3\).png);
+  }
+  .rnb {
+    width: 100%;
+    max-width: 238px;
+    height: 134px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Background\ \(4\).png);
+  }
+  .boston {
+    width: 100%;
+    max-width: 238px;
+    height: 134px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Background\ \(5\).png);
+  }
+  .kim {
+    width: 100%;
+    max-width: 238px;
+    height: 134px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Background\ \(6\).png);
+  }
+  .music {
+    width: 100%;
+    max-width: 238px;
+    height: 134px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/Background\ \(7\).png);
+  }
+  .DT {
+    width: 100%;
+    background-color: black;
+  }
+}

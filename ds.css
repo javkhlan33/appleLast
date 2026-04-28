@@ -1,0 +1,451 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+main {
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+  background-color: #f5f5f7;
+}
+.tolgoi {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  background-color: #f5f5f7;
+}
+.TextHead {
+  font-size: 12 px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.logo {
+  width: 14px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  width: 30px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  width: 30px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dona {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.donation {
+  height: 20px;
+  font-size: 14px;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+.background {
+  background-image: url(image/Background\ \(8\).png);
+  background-size: cover;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec1 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.this {
+  display: flex;
+  width: 655px;
+  height: 52px;
+}
+.store {
+  height: 52px;
+  font-size: 44px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  margin: 0px;
+}
+.ungu {
+  background: linear-gradient(45deg, #0090f7, #ba62fc, #f2416b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0px;
+}
+.gift {
+  margin: 0px;
+  height: 52px;
+  font-size: 44px;
+  font-family: "inter", sans-serif;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.asuult {
+  display: flex;
+  gap: 16px;
+}
+.profile {
+  background-image: url(image/store-chat-holiday-specialist-icon-202411_AV3.png);
+  width: 35px;
+  height: 35px;
+}
+.hariult {
+  width: 175px;
+  height: 100px;
+  gap: 16px;
+}
+.need {
+  font-size: 14px;
+  font-family: "inter", sans-serif;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.ask {
+  font-size: 14px;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  color: #0066cc;
+}
+.product {
+  display: flex;
+  justify-content: space-around;
+  gap: 12px;
+}
+.hairtsag {
+  width: 136px;
+  height: 146px;
+  gap: 16px;
+}
+.baraa {
+  max-width: 120px;
+  width: 100%;
+  height: 78px;
+  background-size: cover;
+  background-position: center;
+}
+.ner {
+  text-align: center;
+  font-size: 14px;
+  font-family: "inter", sans-serif;
+  font-weight: 600;
+  color: #1d1d1f;
+  margin-top: 16px;
+}
+.Mac1 {
+  background-image: url(image/store-card-13-mac-nav-202410.png);
+}
+.Iphone {
+  background-image: url(image/store-card-13-iphone-nav-202409_GEO_US.png);
+}
+.IPAD {
+  background-image: url(image/store-card-13-ipad-nav-202405.png);
+}
+.watch {
+  background-image: url(image/store-card-13-watch-nav-202409.png);
+}
+.vision {
+  background-image: url(image/store-card-13-vision-pro-nav-202401.png);
+}
+.airpods {
+  background-image: url(image/store-card-13-airpods-nav-202409.png);
+}
+.airtag {
+  background-image: url(image/store-card-13-airtags-nav-202108.png);
+}
+.tv {
+  background-image: url(image/store-card-13-appletv-nav-202210.png);
+}
+.home {
+  background-image: url(image/store-card-13-homepod-nav-202301.png);
+}
+.acc {
+  background-image: url(image/store-card-13-accessories-nav-202409.png);
+}
+.card {
+  background-image: url(image/store-card-13-holiday-giftcards-asit-agc-nav-202111.png);
+}
+.dzurga {
+  display: flex;
+  gap: 20px;
+}
+.scroll {
+  width: 1920px;
+  overflow-x: scroll;
+}
+.une {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 30px;
+  flex-shrink: 0;
+}
+.zurag1 {
+  max-width: 480px;
+  width: 100%;
+  height: 500px;
+  background-image: url(image/store-card-50-holiday-iphone-pro-202411_GEO_US.png);
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.solongo {
+  height: 34px;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  margin: 0px;
+}
+.saaral {
+  margin: 0px;
+  height: 34px;
+  font-size: 24px;
+  font-family: "inter", sans-serif;
+  font-weight: 600;
+  color: #6e6e73;
+}
+.text1 {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "inter", sans-serif;
+  color: #b64400;
+}
+.big {
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "inter", sans-serif;
+  color: #1d1d1f;
+}
+.midle {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "inter", sans-serif;
+  color: #1d1d1f;
+}
+.zurag2 {
+  max-width: 480px;
+  width: 100%;
+  height: 500px;
+  background-image: url(image/store-card-50-holiday-watch-s10-202411.png);
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.zurag3 {
+  max-width: 480px;
+  width: 100%;
+  height: 500px;
+  background-image: url(image/store-card-50-holiday-ipad-mini-202411.png);
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.zurag4 {
+  max-width: 480px;
+  width: 100%;
+  height: 500px;
+  background-image: url(image/store-card-50-holiday-macbook-pro-202411.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.Pzurag1 {
+  height: 500px;
+  width: 100%;
+  max-width: 400px;
+  background-image: url(image/store-card-40-holiday-engraving-202411.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.Pzurag2 {
+  height: 500px;
+  width: 100%;
+  max-width: 313px;
+  background-color: white;
+  border-radius: 10px;
+}
+.Ungu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 253px;
+  height: 58px;
+  gap: 7px;
+}
+.chihevch {
+  display: flex;
+  justify-content: center;
+  border-top: 71px;
+  background-image: url(image/airpods-max-select-202409-purple.png);
+  width: 230px;
+  height: 230px;
+}
+.Max {
+  width: 313px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.airpod {
+  background-image: url(image/airpods-max-select-202409-purple.png);
+  width: 230px;
+  height: 230px;
+}
+.colors {
+  width: 253px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.hemjee {
+  width: 12px;
+  height: 12px;
+}
+.zzurga1 {
+  background-image: url(image/Item\ →\ airpods-max-select-202409-blue_SW_COLOR.png);
+}
+.zzurga2 {
+  background-image: url(image/Item\ →\ airpods-max-select-202409-midnight_SW_COLOR.png);
+}
+.zzurga3 {
+  background-image: url(image/Item\ →\ airpods-max-select-202409-orange_SW_COLOR.png);
+}
+.zzurge4 {
+  background-image: url(image/Item\ →\ airpods-max-select-202409-purple_SW_COLOR.png);
+}
+.zzurga5 {
+  background-image: url(image/Item\ →\ airpods-max-select-202409-starlight_SW_COLOR.png);
+}
+.soso {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.dd {
+  display: flex;
+  align-items: end;
+  padding-top: 32px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "inter", sans-serif;
+  color: #1d1d1f;
+  margin-top: 32px;
+  color: 1D1D1F;
+}
+.Max2 {
+  width: 313px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 58px;
+}
+.big2 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "inter", sans-serif;
+  color: #1d1d1f;
+}
+.airpod2 {
+  background-image: url(image/airpods-pro-2-hero-select-202409.png);
+  width: 230px;
+  height: 230px;
+}
+.soso2 {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.airpod3 {
+  background-image: url(image/airpods-4-anc-select-202409.png);
+  width: 230px;
+  height: 230px;
+}
+.airpod4 {
+  background-image: url(image/MX2D3.png);
+  width: 230px;
+  height: 230px;
+}
+.Pzurg1 {
+  height: 500px;
+  width: 100%;
+  max-width: 400px;
+  background-image: url(image/store-card-40-holiday-quick-picks-202411\ \(1\).png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.dagaldah {
+  background-image: url(image/dagaldah\ heregsel\ 01.png);
+  width: 230px;
+  height: 230px;
+}
+.dagaldah2 {
+  background-image: url(image/dagaldah\ heregsel\ 02.png);
+  width: 230px;
+  height: 230px;
+}
+.dagaldah3 {
+  background-image: url(image/dagaldah\ heregsel\ 03.png);
+  width: 230px;
+  height: 230px;
+}
+.dagaldah4 {
+  background-image: url(image/dagaldah\ heregsel\ 04.png);
+  width: 230px;
+  height: 230px;
+}
+.dagaldah5 {
+  background-image: url(image/dagaldah\ heregsel\ 04.png);
+  width: 230px;
+  height: 230px;
+}
+.SHUU {
+  background-image: url(image/ungunuud\ shuu\ 01.png);
+}
+.SHUU2 {
+  background-image: url(image/ungunuud\ shuu\ 02.png);
+}
+.SHUU3 {
+  background-image: url(image/ungunuud\ shuu\ 03.png);
+}
+.SHUU4 {
+  background-image: url(image/ungunuud\ shuu\ 04.png);
+}
+.SHUU5 {
+  background-image: url(image/ungunuud\ shuu\ 05.png);
+}
+.SHUU6 {
+  background-image: url(image/ungunuud\ shuu\ 06.png);
+}
