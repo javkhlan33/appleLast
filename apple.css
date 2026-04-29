@@ -273,7 +273,6 @@ header {
   margin-top: 58px;
 }
 .text6 {
-  font-size: 18px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   display: flex;
@@ -284,7 +283,6 @@ header {
   margin-top: 20px;
 }
 .color {
-  width: 169px;
   height: 18px;
   border: 1px solid red;
   margin-top: 509px;
@@ -567,7 +565,7 @@ header {
     justify-content: center;
   }
   .box {
-    width: 49%;
+    width: 47%;
     background-image: cover;
     background-position: center;
     display: flex;
@@ -658,6 +656,12 @@ header {
     background-size: cover;
     background-position: center;
     background-image: url(image/Background\ \(7\).png);
+  }
+}
+
+@media (max-width: 580px) {
+  .box {
+    width: 100%;
   }
 }
 @media (max-width: 390px) {
